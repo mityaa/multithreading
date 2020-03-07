@@ -35,7 +35,7 @@ namespace increasedDifficulty.client
 				var message = GetMessage();
 				UserName = message;
 
-				message = UserName + "now in chat";
+				message = UserName + " now in chat";
 				_server.SendMessage(message, Id);
 				Console.WriteLine(message);
 
@@ -53,6 +53,7 @@ namespace increasedDifficulty.client
 						message = $"{UserName} left the chat";
 						Console.WriteLine(message);
 						_server.SendMessage(message, Id);
+						break;
 					}
 				}
 			}

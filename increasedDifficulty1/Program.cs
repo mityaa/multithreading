@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace increasedDifficultyClient
+namespace increasedDifficulty1
 {
     class Program
     {

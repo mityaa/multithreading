@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net.Sockets;
 using System.Text;
-using increaseDifficulty.server;
+using increasedDifficulty.server;
 
-namespace increaseDifficulty.client
+namespace increasedDifficulty.client
 {
 	public class Client
 	{

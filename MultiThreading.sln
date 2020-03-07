@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading.Task3.Matrix
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading.Task4.Threads.Join", "MultiThreading.Task4.Threads.Join\MultiThreading.Task4.Threads.Join.csproj", "{3C9627BE-0041-493D-B2CA-C8CD6B4BB3F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "increaseDifficulty", "increaseDifficultyServer\increaseDifficulty.csproj", "{6D9CBBFA-2851-45F4-9E16-D0617A4FF668}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "increasedDifficulty", "increasedDifficulty1\increasedDifficulty.csproj", "{6C25C7D0-A4B4-43BC-B1ED-BA1008965B3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{3C9627BE-0041-493D-B2CA-C8CD6B4BB3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9627BE-0041-493D-B2CA-C8CD6B4BB3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C9627BE-0041-493D-B2CA-C8CD6B4BB3F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D9CBBFA-2851-45F4-9E16-D0617A4FF668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D9CBBFA-2851-45F4-9E16-D0617A4FF668}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D9CBBFA-2851-45F4-9E16-D0617A4FF668}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D9CBBFA-2851-45F4-9E16-D0617A4FF668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C25C7D0-A4B4-43BC-B1ED-BA1008965B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C25C7D0-A4B4-43BC-B1ED-BA1008965B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C25C7D0-A4B4-43BC-B1ED-BA1008965B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C25C7D0-A4B4-43BC-B1ED-BA1008965B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

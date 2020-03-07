@@ -5,9 +5,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using increaseDifficulty.client;
+using increasedDifficulty.client;
 
-namespace increaseDifficulty.server
+namespace increasedDifficulty.server
 {
 	public class Server
 	{
@@ -38,7 +38,7 @@ namespace increaseDifficulty.server
 					var tcpClient = TcpListener.AcceptTcpClient();
 
 					var client = new Client(tcpClient, this);
-					var clientThread = new Thread(new ThreadStart(client.Process));
+					var clientThread = new Thread(client.Process);
 					clientThread.Start();
 				}
 			}
